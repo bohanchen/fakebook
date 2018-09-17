@@ -5,24 +5,29 @@ html, body{
 }
 
 header{
-    background-color: #4168BF;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #6F6F6F;
     height: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 20px;
-
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.05);
 }
 
 .title{
     float:left;
     font-size: 35px;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 .material-icons{
-    float:right;
-    margin-right: 5%;
+    float:left;
+    margin-left: 5%;
+}
+
+.fa{
+    float:left;
+    margin-left: 2%;
 }
 
 .contents{
@@ -36,12 +41,11 @@ header{
     background-color: #ffffff;
     width: 25%;
     float: left;
-    text-align: center;
+    
     height: 450px;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 1%;
     margin-right: 1%;
-    margin-bottom: 4%;
     
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -49,11 +53,14 @@ header{
 
 }
 
-.card-title{
-    height: 330px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin-top: 60px;
+.card-title h2{
+    height: 350px;
+    font-family: sans-serif;
+    font-weight: 400 ;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-top: 40px;
     margin-left:20px;
     margin-right:20px; 
     color: #606060;
@@ -68,7 +75,7 @@ img{
 .button{
     height: 60px;
     width:100%;
-    background-color: #4168BF;
+    background-color: #2793E6;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: 18px;
@@ -77,15 +84,19 @@ img{
 
 
 
+
+
 footer{
-    background-color: #4168BF;
+    margin-top:2%; 
+    background-color: #ffffff;
     height: 30px;
     padding: 20px;
     text-align: center;
-    color: #ffffff;
+    color: #6F6F6F;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    
+    box-shadow: 4px 0px 6px 0 rgba(0,0,0,0.05);
+    font-size: 14px;
 }
 
 .clear{

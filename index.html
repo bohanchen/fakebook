@@ -5,45 +5,77 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
 <body>
    <header>
-      <div> 
-        <h1 class = "title">Fakebook</h1>
-        <i class="material-icons" style="font-size:35px"> announcement</i> 
+      <div>
+        <i class="material-icons" style="font-size:40px"> menu</i> 
+        <i class="fa fa-youtube-play" style="font-size:40px;color:red"></i> 
+        <h1 class = "title">FakeTube</h1>
+       
       </div>
    </header>
       
    <div class="contents">
         <div class = "card">
             <div class = "card-title">
-                <h2>"I hate you, I don't like you!"</h2>
-                <audio id="audio" src="audio/1.wav" ></audio>
+                <h2>Hey Guys, I am going to do a video series called top 10 reasons that why Dota2 sucks, because this game is just fucking dogshit.</h2>
+                <audio src="audio/morsecode.wav" ></audio>
             </div>
-            <button class = "button" onclick = "Morse()">Encrypt </button>
+            <button class = "button" onclick = "Morse()">Comment with Morse Code</button>
         </div>
 
         <div class = "card">
            <div class = "card-title">
-                <h2>"I hate you, I don't like you!"</h2>
-                <audio id="audio2" src="audio/2.mp3" ></audio>
+                <h2>The topic of this video is the dogshit fucking community, Okay, because if you are fucking retarded, Okay, if you are a fucking retard, you don't realize this. The community is completely segregated and a bunch of little dog shit sub communities. 
+                </h2>
+                <audio src="audio/to-the-point.mp3" ></audio>
            </div>
-           <button class = "button" onclick="Filter()">Filter</button>
+           <button class = "button" onclick="Filter()">Comment with Filter</button>
         </div>
 
         <div class = "card">
             <div class = "card-title">
-                <h2>"I hate you, I wanna kill you!"</h2>
-                 <audio id="audio3" src="audio/3.mp3" ></audio>
+                <h2>For number two is gonna be the dogshit fucking casters in this fucking game ok. All the shitstein motherfucker you hear talking over on stream or shit and inside the DotaTV you are watching a pro game. I am going to expose this these dogshit,  fucking steaming pile of shit fucking casters. Honestly, I don't even fucking know why these fucking shitstein motherfuckers are paid to talk over these fucking games. </h2>
+                 <audio src="audio/typewriter.mp3" ></audio>
             </div>
-            <button class = "button" onclick="Censor()">Censor</button>
+            <button class = "button" onclick="Censor()">Comment with Enigma Encryption</button>
+        </div>
+        
+        <!--Received message-->
+        <div class = "card">
+            <div class = "card-title">
+                <h2></h2>
+                <audio src="audio/decode1.mp3" ></audio>
+            </div>
+            <button class = "button" onclick = "decryptMorse()">Decrypt Comment</button>
+        </div>
+          
+        <div class = "card">
+            <div class = "card-title">
+                <h2></h2>
+                <audio src="audio/decode2.mp3" ></audio>
+            </div>
+            <button class = "button" onclick = "decryptFilter()">Decrypt Comment</button>
+        </div>
+          
+        <div class = "card">
+            <div class = "card-title">
+                <h2></h2>
+                <audio src="audio/decode3.mp3" ></audio>
+            </div>
+            <button class = "button" onclick = "decryptCensor()">Decrypt Comment </button>
         </div>
            
    </div>
    <div class="clear"></div>
-   <footer>&copy;Bohan Chen, 2018</footer>
+   <footer>
+        &copy;Bohan Chen, 2018 <br> 
+        Instructor: Liu Fei | Major Studio 2D<br>
+    </footer>
     
 </body>
 <script src="js/main.js"></script>
