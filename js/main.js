@@ -76,6 +76,13 @@ function decryptCensor(){
         audio.play();
     } else{
         window.alert("You didn't receive any messages yet");
-    }
-    
+    }  
+}
+
+function openNav() {
+  document.getElementById("myNav").style.width = "90%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }
